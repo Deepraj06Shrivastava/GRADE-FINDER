@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    
+    <section>
+        <div class="maincontainer">
+            <div class="conatiner">
+                <div class="container1">
+                    <h2>Grade-Finder <span>Calculator</span></h2>
+                </div>
+                <div class="container2">
+                    <div class="first_container">
+
+                        <label id="maths" for="math">Maths</label>
+                        <input type="number" id="math" value=""  class="values">
+
+                        <label for="science">Science</label>
+                        <input type="number" id="science" value="" class="values">
+
+                        <label for="history">History</label>
+                        <input type="number" id="history" value="" class="values">
+
+                        <label for="computer">Computer</label>
+                        <input type="number" id="computer" value="" class="values">
+
+                        <label for="english">English</label>
+                        <input type="number" id="english" value="" class="values">
+
+                        <button onclick="calculator()">Calculate</button>
+                        <button onclick="clearInput()">Clear</button>
+
+                    </div>
+                    <div class="second_container">
+                        <div class="table">
+                            <div class="table1">
+                                <label for=""><p>Total-Marks</p></label>
+                                <label for=""><p>Obtained-Marks</p></label>
+                                <label for=""><p>Percentage (%)</p></label>
+                                <label for=""><p>Other</p></label>
+                                <label for=""><p>Remarks</p></label>
+                                <label for=""><p>Grade</p></label>
+                            </div>
+                            <div class="table2">
+                                <label for=""><p>500</p></label>
+                                <label for="marks"><p id="marks"></p></label>
+                                <label for="percentage"><p id="percentage"></p></label>
+                                <label for="grade"><p id="other"></p></label>
+                                <label for="remarks"><p id="remarks"></p></label>
+                                <label for="other"><p id="grade"></p></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="javas.js"></script>
+</body>
+</html>
